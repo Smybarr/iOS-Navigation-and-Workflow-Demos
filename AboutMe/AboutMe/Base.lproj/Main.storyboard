@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E192b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gCZ-mW-ekj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poj-ma-aCX">
+                                <rect key="frame" x="111" y="298" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="Zim-lX-j4M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-604" y="816"/>
+        </scene>
+        <!--Bio-->
+        <scene sceneID="uP0-IY-cQo">
+            <objects>
+                <viewController id="Yoc-EE-QEB" customClass="BioViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Ks-BR-fgq"/>
+                        <viewControllerLayoutGuide type="bottom" id="SMi-Fp-ck9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LRC-wo-jVW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="N6n-yH-74B">
+                                <rect key="frame" x="46" y="220" width="283" height="278"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YVH-Ai-bmY">
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="86"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Hobbies: Include a lot of things like going out to eat and programming">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJh-q1-jeZ">
+                                        <rect key="frame" x="0.0" y="96" width="283" height="86"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Education">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LO4-WI-gSO">
+                                        <rect key="frame" x="0.0" y="192" width="283" height="86"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Favorite Food">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.63695297956466668" green="0.3371115407044678" blue="0.33035214663582979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="N6n-yH-74B" firstAttribute="leading" secondItem="LRC-wo-jVW" secondAttribute="leadingMargin" constant="30" id="01R-dr-4lr"/>
+                            <constraint firstItem="SMi-Fp-ck9" firstAttribute="top" secondItem="N6n-yH-74B" secondAttribute="bottom" constant="120" id="8jN-15-oDE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="N6n-yH-74B" secondAttribute="trailing" constant="30" id="Jee-9A-4aM"/>
+                            <constraint firstItem="N6n-yH-74B" firstAttribute="top" secondItem="3Ks-BR-fgq" secondAttribute="bottom" constant="200" id="Sze-zv-sPN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bio" id="UbG-Il-LYc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IbA-a5-viG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228" y="816.34182908545733"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="jNv-cx-ReN">
+            <objects>
+                <viewController id="KF8-3o-sKd" customClass="FamilyViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qpN-Ab-Myg"/>
+                        <viewControllerLayoutGuide type="bottom" id="W7C-jh-sgi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9CQ-tQ-7yo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="332-s9-B5e">
+                                <rect key="frame" x="30" y="220" width="315" height="278"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRj-7F-W9x">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="86"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Hobbies: Include a lot of things like going out to eat and programming">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCy-zj-R1S">
+                                        <rect key="frame" x="0.0" y="96" width="315" height="86"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Education">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgb-vw-Bm8">
+                                        <rect key="frame" x="0.0" y="192" width="315" height="86"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Favorite Food">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.34329330570886557" blue="0.60263885736465461" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="332-s9-B5e" firstAttribute="leading" secondItem="9CQ-tQ-7yo" secondAttribute="leading" constant="30" id="Eo2-mi-QWq"/>
+                            <constraint firstItem="332-s9-B5e" firstAttribute="top" secondItem="qpN-Ab-Myg" secondAttribute="bottom" constant="200" id="J1i-vG-qVW"/>
+                            <constraint firstAttribute="trailing" secondItem="332-s9-B5e" secondAttribute="trailing" constant="30" id="nxb-yv-DV6"/>
+                            <constraint firstItem="W7C-jh-sgi" firstAttribute="top" secondItem="332-s9-B5e" secondAttribute="bottom" constant="120" id="z3z-uG-9bf"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" id="sGK-cJ-Se8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0C5-fh-skb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="816.34182908545733"/>
+        </scene>
+        <!--Goals-->
+        <scene sceneID="S8q-Ks-cwn">
+            <objects>
+                <viewController id="TJi-VP-Igv" customClass="GoalsViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ngq-bX-ZZq"/>
+                        <viewControllerLayoutGuide type="bottom" id="CCK-0R-IkO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kAt-RE-qmV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="obm-OH-bbU">
+                                <rect key="frame" x="30" y="220" width="315" height="278"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Jx-l0-eQX">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="86"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Hobbies: Include a lot of things like going out to eat and programming">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8n-9b-VV3">
+                                        <rect key="frame" x="0.0" y="96" width="315" height="86"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Education">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2YT-vo-wWd">
+                                        <rect key="frame" x="0.0" y="192" width="315" height="86"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Favorite Food">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.51866115386105516" green="0.63176435708999634" blue="0.51365975698769384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="obm-OH-bbU" firstAttribute="top" secondItem="ngq-bX-ZZq" secondAttribute="bottom" constant="200" id="Uxr-MZ-TJC"/>
+                            <constraint firstAttribute="trailing" secondItem="obm-OH-bbU" secondAttribute="trailing" constant="30" id="Z4u-Tf-L8m"/>
+                            <constraint firstItem="CCK-0R-IkO" firstAttribute="top" secondItem="obm-OH-bbU" secondAttribute="bottom" constant="120" id="dvh-yi-END"/>
+                            <constraint firstItem="obm-OH-bbU" firstAttribute="leading" secondItem="kAt-RE-qmV" secondAttribute="leading" constant="30" id="yAU-Uj-ey6"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Goals" id="2dN-pa-eKZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4rm-m3-LXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1916" y="815.44227886056979"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="oq4-sG-kbC">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gCZ-mW-ekj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="CUX-Xr-cpC">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Yoc-EE-QEB" kind="relationship" relationship="viewControllers" id="Sfa-gp-zga"/>
+                        <segue destination="KF8-3o-sKd" kind="relationship" relationship="viewControllers" id="YEz-fV-LWL"/>
+                        <segue destination="TJi-VP-Igv" kind="relationship" relationship="viewControllers" id="Cs0-7b-iXb"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="gd5-a4-LI7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cwq-oo-fPd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="777" y="55"/>
+        </scene>
+    </scenes>
+</document>
